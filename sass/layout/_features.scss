@@ -1,0 +1,33 @@
+.features {
+    display: flex;
+    column-gap: 30px;
+}
+
+.feature__item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.feature__icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.feature__title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.feature__text {
+    color: var(--p-text);
+    line-height: 1.7;
+}
