@@ -64,9 +64,11 @@
 
     transform: translateY(100%);
     transition: transform var(--transition);
+    
+    
+        .portfolio__link:hover &,
+        .portfolio__link:focus & {
+            transform: translateY(0);
+}
 }
 
-.portfolio__link:hover .portfolio__content,
-.portfolio__link:focus .portfolio__content {
-    transform: translateY(0);
-}

@@ -19,10 +19,10 @@
     padding: 15px 16px;
     background-color: rgba(0, 0, 0, 0);
     color: var(--primary-white-color);
+    
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.6);
 }
-
-.form-subscription__input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
 }
 
 .form-subscription__btn {
